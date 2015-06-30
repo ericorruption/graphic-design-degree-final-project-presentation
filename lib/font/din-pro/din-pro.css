@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'Din';
+    src: url('DINPro-Bold.eot');
+    src: url('DINPro-Bold.eot?#iefix') format('embedded-opentype'),
+         url('DINPro-Bold.woff') format('woff'),
+         url('DINPro-Bold.ttf') format('truetype');
+
+    font-weight: bold;
+    font-style: normal;
+}
