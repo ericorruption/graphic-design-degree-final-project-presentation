@@ -21,7 +21,7 @@ $backgroundColor: #fff;
 $mainColor: #222;
 $headingColor: #222;
 
-$mainFontSize: 38px;
+// $mainFontSize: 38px;
 $mainFont: 'Open Sans', sans-serif;
 $headingFont: 'Din', serif;
 $headingTextShadow: none;
@@ -50,6 +50,13 @@ section.has-dark-background {
     }
 }
 
+.reveal li + li{
+    margin-top: $blockMargin /1.5;
+}
+
+.reveal .current-fragment {
+    font-weight: bold; // ?
+}
 
 // Theme template ------------------------------
 @import "../template/theme";
