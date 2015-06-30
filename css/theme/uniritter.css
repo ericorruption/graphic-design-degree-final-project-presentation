@@ -4,8 +4,10 @@
  *
  * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
  */
-section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
+section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6, section.has-dark-background a {
   color: #fff; }
+section.has-dark-background a {
+  font-weight: bold; }
 
 @media (min-width: 800px) {
   .branded body {
@@ -17,6 +19,20 @@ section.has-dark-background, section.has-dark-background h1, section.has-dark-ba
 
 .reveal .current-fragment {
   font-weight: bold; }
+
+.huge {
+  font-size: 3em;
+  text-align: left; }
+  .huge strong {
+    display: block;
+    float: left;
+    font-size: 8em;
+    line-height: 0.8;
+    margin-bottom: 0.1em;
+    margin-right: 0.15em;
+    transform: translateY(-50px); }
+  .huge + p {
+    clear: both; }
 
 /*********************************************
  * GLOBAL STYLES
