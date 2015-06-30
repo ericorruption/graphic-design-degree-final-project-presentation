@@ -37,15 +37,15 @@ $heading2Size: 1.6em;
 $heading3Size: 1.3em;
 $heading4Size: 1.0em;
 
-section.has-light-background {
+section.has-dark-background {
 	&, h1, h2, h3, h4, h5, h6 {
-		// color: $linkColor;
+		color: #fff;
 	}
 }
 
 @media (min-width: 800px) {
     .branded body {
-        background: url(../../lib/img/symbol-uniritter-grey.svg) no-repeat 105% 40px;
+        background: $backgroundColor url(../../lib/img/symbol-uniritter-grey.svg) no-repeat 105% 40px;
         background-size: 55% auto;
     }
 }

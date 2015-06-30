@@ -4,9 +4,12 @@
  *
  * Copyright (C) 2015 Hakim El Hattab, http://hakim.se
  */
+section.has-dark-background, section.has-dark-background h1, section.has-dark-background h2, section.has-dark-background h3, section.has-dark-background h4, section.has-dark-background h5, section.has-dark-background h6 {
+  color: #fff; }
+
 @media (min-width: 800px) {
   .branded body {
-    background: url(../../lib/img/symbol-uniritter-grey.svg) no-repeat 105% 40px;
+    background: #fff url(../../lib/img/symbol-uniritter-grey.svg) no-repeat 105% 40px;
     background-size: 55% auto; } }
 
 /*********************************************
