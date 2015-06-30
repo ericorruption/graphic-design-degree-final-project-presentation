@@ -46,7 +46,7 @@ section.has-dark-background {
 @media (min-width: 800px) {
     .branded body {
         background: $backgroundColor url(../../lib/img/symbol-uniritter-grey.svg) no-repeat 105% 40px;
-        background-size: 55% auto;
+        background-size: auto 100%;
     }
 }
 
