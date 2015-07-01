@@ -20,7 +20,7 @@ section.has-dark-background a {
 .reveal li + li {
   margin-top: 13.3333333333px; }
 
-.reveal .current-fragment {
+.has-fragments .reveal .current-fragment {
   font-weight: bold; }
 
 .huge {
@@ -36,6 +36,11 @@ section.has-dark-background a {
     transform: translateY(-50px); }
   .huge + p {
     clear: both; }
+
+.list-inline li {
+  list-style: none;
+  display: inline-block;
+  vertical-align: middle; }
 
 /*********************************************
  * GLOBAL STYLES
@@ -295,3 +300,9 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #931b1d; }
+
+.reveal section img {
+  border: none;
+  max-width: 300px;
+  background: transparent;
+  box-shadow: none; }

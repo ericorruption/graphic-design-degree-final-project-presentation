@@ -62,8 +62,8 @@ section.has-dark-background {
     margin-top: $blockMargin /1.5;
 }
 
-.reveal .current-fragment {
-    font-weight: bold; // ?
+.has-fragments .reveal .current-fragment {
+    font-weight: bold;
 }
 
 .huge{
@@ -85,6 +85,22 @@ section.has-dark-background {
     }
 }
 
+.list-inline {
+    li {
+        list-style: none;
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+
 // Theme template ------------------------------
 @import "../template/theme";
 // ---------------------------------------------
+
+
+.reveal section  img{
+    border: none;
+    max-width: 300px;
+    background: transparent;
+    box-shadow: none;
+}
