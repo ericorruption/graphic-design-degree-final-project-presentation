@@ -37,10 +37,14 @@ section.has-dark-background a {
   .huge + p {
     clear: both; }
 
-.list-inline li {
-  list-style: none;
-  display: inline-block;
-  vertical-align: middle; }
+.reveal .list-inline {
+  padding-left: 0;
+  margin-left: 0; }
+  .reveal .list-inline li {
+    list-style: none;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 1em; }
 
 /*********************************************
  * GLOBAL STYLES
@@ -303,6 +307,6 @@ body {
 
 .reveal section img {
   border: none;
-  max-width: 300px;
+  max-width: 250px;
   background: transparent;
   box-shadow: none; }

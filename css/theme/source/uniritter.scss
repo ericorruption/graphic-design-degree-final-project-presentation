@@ -85,11 +85,15 @@ section.has-dark-background {
     }
 }
 
-.list-inline {
+.reveal .list-inline {
+    padding-left: 0;
+    margin-left: 0;
+
     li {
         list-style: none;
         display: inline-block;
         vertical-align: middle;
+        margin: 0 1em;
     }
 }
 
@@ -100,7 +104,7 @@ section.has-dark-background {
 
 .reveal section  img{
     border: none;
-    max-width: 300px;
+    max-width: 250px;
     background: transparent;
     box-shadow: none;
 }
