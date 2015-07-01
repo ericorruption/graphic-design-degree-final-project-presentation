@@ -54,6 +54,10 @@ section.has-dark-background {
     }
 }
 
+.mobile-first body {
+    background: #f3f1d9;
+}
+
 .reveal li + li{
     margin-top: $blockMargin /1.5;
 }
