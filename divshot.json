@@ -1,0 +1,4 @@
+{
+  "name": "uniritter-presentation",
+  "exclude": ["node_modules","test"]
+}
